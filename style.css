@@ -77,3 +77,12 @@
   background-color: #0d6efd;
   color: white;
 }
+
+.onepage-heading::after{
+  content: "";
+  background: black;
+  display: block;
+  width: 100px;
+  height: 2px;
+  margin: 15px 0;
+}
